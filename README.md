@@ -1,3 +1,7 @@
+This is example of script for building Excel files with macros on VBA. This is an example of how you can store the source code of your VBA projects or various Excel-based programs.
+
+## Build Excel file with macros
+
 **Enable PowerShell scripts**
 
 If you can't run the build script at all, use the following command to temporarily enable PowerShell scripts for the duration of your PowerShell session:
