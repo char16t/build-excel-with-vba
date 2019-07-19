@@ -1,5 +1,17 @@
 This is example of script for building Excel files with macros on VBA. This is an example of how you can store the source code of your VBA projects or various Excel-based programs.
 
+## TL;DR
+
+You may need administrator rights. Run in PowerShell:
+
+```
+.\build.ps1
+```
+or
+```
+.\build.ps1 -enableRegistryFix
+```
+
 ## Build Excel file with macros
 
 **Enable PowerShell scripts**
@@ -32,3 +44,7 @@ If you have error when `$book.VBProject.VBComponents.Add(1)` is `NULL` you shoul
 ```
 .\build.ps1 -enableRegistryFix
 ```
+
+## Unlicense
+
+This is public domain
